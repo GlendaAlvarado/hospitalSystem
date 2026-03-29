@@ -1,0 +1,8 @@
+ec\edu\espoch\hospitalsystem\Doctor.class
+ec\edu\espoch\hospitalsystem\Administrator.class
+ec\edu\espoch\hospitalsystem\Patient.class
+ec\edu\espoch\hospitalsystem\Pharmacy.class
+ec\edu\espoch\hospitalsystem\Laboratory.class
+ec\edu\espoch\hospitalsystem\Appointment.class
+ec\edu\espoch\hospitalsystem\HospitalSystem.class
+ec\edu\espoch\hospitalsystem\Receptionist.class
