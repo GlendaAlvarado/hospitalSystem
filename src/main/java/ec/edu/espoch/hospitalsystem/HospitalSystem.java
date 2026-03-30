@@ -7,7 +7,7 @@ public class HospitalSystem {
 
         Patient patient = new Patient();
         patient.personalData = "Maria Sanchez";
-        patient.medicalRecord = "No allergies";
+        patient.medicalRecord = "Penicilina";
         patient.healthStatus= "Stable";
 
         Doctor doctor = new Doctor();
@@ -53,7 +53,8 @@ public class HospitalSystem {
                     pharmacy.updateQuantity();
                     break;
                 case 6:
-                    admin.generateReport();
+                    admin.generateReport(patient);
+                    
                     break;
                 case 7:
                     System.out.println("Exiting...");
